@@ -4,7 +4,7 @@ import { View, Text, FlatList, StyleSheet } from 'react-native';
 const EarningsScreen = () => {
   const [totalEarnings, setTotalEarnings] = useState(0);
   const [ridesData, setRidesData] = useState([
-    { id: '1', date: '2023-08-07', time: '08:30 AM', earnings: 50 },
+    { id: '1', date: '2023-08-07', time: '08:30 AM', earnings: 60 },
     { id: '2', date: '2023-08-07', time: '10:15 AM', earnings: 30 },
     { id: '3', date: '2023-08-08', time: '01:45 PM', earnings: 40 },
     { id: '4', date: '2023-08-08', time: '04:20 PM', earnings: 20 },
